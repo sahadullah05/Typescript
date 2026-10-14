@@ -191,6 +191,108 @@
 
 
 
+// function calback( a:string , cb:(str:string) =>void ) {
+
+//   cb("call")
+// }
+
+// calback ("sahad" , (str:string):void => {
+//   console.log(str);
+  
+// })
+
+
+// function random (val:number, sum:(a:number, b:number)=>void ):void{
+  
+//     sum(val, 45)
+
+// }
+
+// random( 32, (a:number, b:number) =>{
+//     console.log(a + b)
+// })
+
+
+//  function restOp (...arg:number[]):void{
+ 
+//     console.log(arg);
+    
+// }
+
+
+
+// restOp(1,2,3,4,5,6)
+
+
+
+
+
+
+// function over(a:string):void
+// function over (a:string, b:number): number
+
+
+// function over( val:any, num?:any){
+
+//     if(typeof val == "string" && num == undefined){
+//         console.log("first one running ===>");
+//             }
+//             if (typeof val == "string" && typeof num == "number"){
+//                 console.log("first one running ===>");
+                
+//             }
+
+// }
+
+// over ("adnan", 11)
+
+
+
+
+
+// function generic <T> (val:T){
+
+//     console.log(val);
+    
+
+// }
+// generic (23)
+// generic ("23")
+// generic(true)
+
+
+// function generic <T> (val:T):T{
+
+//     if ( typeof val == "string"){
+//         return val.toUpperCase() as T
+// }
+    
+//     return val 
+// }
+    
+
+
+
+// console.log(generic(23));
+// generic ("23")
+
+
+// generic(true)
+
+
+
+
+// class Game <T> {
+
+//     constructor(public key:T){
+// }
+// }
+
+
+// let m1 = new Game(12)
+// console.log(m1);
+
+
 
 
   
